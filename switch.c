@@ -18,7 +18,7 @@ int main()
 	        break;
 	    case 5:printf("Food item - Sandwich\nPrice - Rs.149\n");//if choice=5
 	        break;
-	    default:printf("Enter correct choice\n");//if choice doesn't match
+	    default:printf("Enter correct choice,The number you have entered is not in the menu\n");//if choice doesn't match
 		}
     return 0;
 }
